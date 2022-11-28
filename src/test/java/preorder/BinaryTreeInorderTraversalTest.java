@@ -1,10 +1,14 @@
+package preorder;
+
 import org.junit.jupiter.api.Test;
+import preorder.BinaryTreePreorderTraversal;
+import preorder.TreeNode;
 
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class BinaryTreePreorderTraversalTest {
+class BinaryTreeInorderTraversalTest {
 
     @Test
     void preorderTraversalTest() {
