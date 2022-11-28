@@ -15,7 +15,7 @@ class BinaryTreeInorderTraversalTest {
         TreeNode root = new TreeNode(1, null, right);
 
         //WHEN
-        var actual = binaryTreeInorderTraversal.preorderTraversal(root);
+        var actual = binaryTreeInorderTraversal.recursiveApproach(root);
 
         //THEN
         List<Integer> expected = List.of(1, 3, 2);
