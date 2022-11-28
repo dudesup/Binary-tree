@@ -3,7 +3,7 @@ package inorder;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinaryTreeInorderTraversal {
+public class InorderTraversalRecursion {
     public List<Integer> recursiveApproach(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         helper(root, result);

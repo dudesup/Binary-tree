@@ -6,11 +6,11 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class BinaryTreeInorderTraversalTest {
+class InorderTraversalRecursionTest {
     @Test
     public void inorderTraversalTest() {
         //GIVEN
-        BinaryTreeInorderTraversal binaryTreeInorderTraversal = new BinaryTreeInorderTraversal();
+        InorderTraversalRecursion binaryTreeInorderTraversal = new InorderTraversalRecursion();
         TreeNode right = new TreeNode(2, new TreeNode(3), null);
         TreeNode root = new TreeNode(1, null, right);
 
